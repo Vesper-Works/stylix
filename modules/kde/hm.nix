@@ -79,13 +79,25 @@ let
     lib.filter lib.isString (builtins.split "[^a-zA-Z]" colors.scheme)
   );
 
-  colorEffect = {
-    ColorEffect = 0;
+  colorEffectDisabled = {
+    Color = "56,56,56";
     ColorAmount = 0;
-    ContrastEffect = 1;
-    ContrastAmount = 0.5;
-    IntensityEffect = 0;
+    ColorEffect = 0;
+    ContrastAmount = 0.65;
+    ContrastEffect = 2;
     IntensityAmount = 0;
+    IntensityEffect = 2;
+  };
+  colorEffectInactive = {
+    Color = "112,111,110";
+    ChangeSelectionColor = true;
+    ColorAmount = 0.025;
+    ColorEffect = 2;
+    ContrastAmount = 0.1;
+    ContrastEffect = 2;
+    IntensityAmount = 0;
+    IntensityEffect = 2;
+    Enable = false;
   };
 
   mkColorTriple =
@@ -131,8 +143,8 @@ let
       Name = colors.scheme;
     };
 
-    "ColorEffects:Disabled" = colorEffect;
-    "ColorEffects:Inactive" = colorEffect;
+    "ColorEffects:Disabled" = colorEffectDisabled;
+    "ColorEffects:Inactive" = colorEffectInactive;
 
     "Colors:Window" = kdecolors;
     "Colors:View" = kdecolors;
