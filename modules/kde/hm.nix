@@ -123,7 +123,7 @@ let
   colors' = builtins.listToAttrs (map mkColorMapping (lib.range 0 15));
 
   kdecolors = with colors'; {
-    BackgroundNormal = base0E;
+    BackgroundNormal = base00;
     BackgroundAlternate = base01;
     DecorationFocus = base0D;
     DecorationHover = base0D;
