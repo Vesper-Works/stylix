@@ -49,6 +49,16 @@ mkTarget {
 
                   --background-primary: ${base00};
                   --background-secondary: ${base01};
+                  --background-modifier-border: ${base0D};
+
+                  --text-normal: ${base05};
+                  --text-muted: ${base03};
+                  --text-faint: ${base03};
+                  --text-on-accent: ${base02};
+                  --text-success: ${base0C};
+                  --text-warning: ${base0A};
+                  --text-error: ${base09};
+                  --text-accent: ${base04};
 
                   --color-accent: ${base0D};
                   --color-accent-1: ${base0D};
@@ -66,6 +76,16 @@ mkTarget {
 
                   --background-primary: ${base00};
                   --background-secondary: ${base01};
+                  --background-modifier-border: ${base0D};
+
+                  --text-normal: ${base05};
+                  --text-muted: ${base03};
+                  --text-faint: ${base03};
+                  --text-on-accent: ${base02};
+                  --text-success: ${base0C};
+                  --text-warning: ${base0A};
+                  --text-error: ${base09};
+                  --text-accent: ${base04};
 
                   --color-accent: ${base0D};
                   --color-accent-1: ${base0D};
