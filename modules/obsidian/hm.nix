@@ -50,8 +50,8 @@ mkTarget {
                   --background-primary: ${base00};
                   --background-secondary: ${base01};
 
-                  /*--color-accent: ${base0D};
-                  --color-accent-1: ${base0D};*/
+                  --color-accent: ${base0D};
+                  --color-accent-1: ${base0D};
               }
             '';
           }
@@ -67,8 +67,8 @@ mkTarget {
                   --background-primary: ${base00};
                   --background-secondary: ${base01};
 
-                  /*--color-accent: ${base0D};
-                  --color-accent-1: ${base0D};*/
+                  --color-accent: ${base0D};
+                  --color-accent-1: ${base0D};
                 }
               '';
             }
